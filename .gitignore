@@ -108,3 +108,6 @@ dist
 
 # prettier
 .prettierrc.json
+
+# package-lock
+package-lock.json
