@@ -17,6 +17,7 @@ app.use(
 );
 
 app.use(express.static("public"));
+app.use("/img", express.static(`${__dirname}/public/img`));
 app.use("/css", express.static(`${__dirname}/public/css`));
 
 app.get("/", (req, res) => {
